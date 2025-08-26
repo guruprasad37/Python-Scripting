@@ -1,6 +1,6 @@
 import boto3
 
-client = boto3.client('secretsmanager', region_name='us-east-1')
+client = boto3.client('secretsmanager', region_name='ap-south-1')
 
 response = client.create_secret(
     Name='MyApp_DB_Credentials',  
